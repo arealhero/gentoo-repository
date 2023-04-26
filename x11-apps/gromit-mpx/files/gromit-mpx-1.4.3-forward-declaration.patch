@@ -1,0 +1,12 @@
+diff --git a/src/gromit-mpx.c b/src/gromit-mpx.c
+index ded1ef6..42d7f4a 100644
+--- a/src/gromit-mpx.c
++++ b/src/gromit-mpx.c
+@@ -696,6 +696,7 @@ void main_do_event (GdkEventAny *event,
+ }
+ 
+ 
++int app_parse_args (int argc, char **argv, GromitData *data);
+ 
+ 
+ 
