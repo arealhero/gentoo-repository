@@ -24,8 +24,6 @@ DEPEND="
 "
 BDEPEND="virtual/pkgconfig"
 
-KEYWORDS="amd64"
-
 src_prepare() {
 	default
 
